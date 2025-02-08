@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SO VOCE FAZ MINHA PUPILA DILATAR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: black; /* Fundo preto */
+            color: white; /* Texto branco para contraste */
+            overflow: auto; /* Permite a rolagem */
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        video {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            border: 5px solid #e74c3c;
+            border-radius: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .music-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .music-link:hover {
+            background-color: #c0392b;
+        }
+    
+> 
+    
+    
+    </style>
+</head>
+<body>
+    <h1>Eu te amo meu amor, te amo, você mesmo Nathaly❤️</h1>
+   
+
+    
+    <p>Este site foi feito especialmente para você, Para que guarde as memorias 
+        de todos as coisas que eu fizer para você </p>
+        <img id="minhaImagem" src="Meu amor5.jpg" alt="Descrição da imagem" width="100">
+</p>
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro e Relógio Digital</title>
+    <style>
+        @font-face {
+            font-family: 'Digital';
+            src: url('https://fonts.cdnfonts.com/s/11610/DS-DIGI.TTF') format('truetype');
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .display {
+            font-family: 'Digital', sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            background-color: #222;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 350px;
+            text-align: center;
+            border: 3px solid pink;
+        }
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+
+    <!-- Cronômetro de Contagem Regressiva -->
+    <div class="container">
+        <p>Tempo restante para 7 meses de felicidade:</p>
+        <div class="display" id="cronometro"></div>
+    </div>
+
+    <script>
+        function atualizarRelogio() {
+            const agora = new Date();
+            const horas = agora.getHours().toString().padStart(2, '0');
+            const minutos = agora.getMinutes().toString().padStart(2, '0');
+            const segundos = agora.getSeconds().toString().padStart(2, '0');
+            document.getElementById("relogio").innerHTML = `${horas}:${minutos}:${segundos}`;
+        }
+
+        function atualizarCronometro() {
+            const dataFinal = new Date("2025-02-18T00:00:00").getTime();
+            const agora = new Date().getTime();
+            const diferenca = dataFinal - agora;
+
+            const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((diferenca % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0');
+            const minutos = Math.floor((diferenca % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
+            const segundos = Math.floor((diferenca % (1000 * 60)) / 1000).toString().padStart(2, '0');
+
+            document.getElementById("cronometro").innerHTML = `${dias}d ${horas}:${minutos}:${segundos}`;
+
+            if (diferenca < 0) {
+                document.getElementById("cronometro").innerHTML = "00d 00:00:00";
+            }
+        }
+
+        setInterval(atualizarRelogio, 1000);
+        setInterval(atualizarCronometro, 1000);
+
+        atualizarRelogio();
+        atualizarCronometro();
+    </script>
+
+</body>
+</html>
+   
+
+    <!-- Primeiro vídeo -->
+    <video controls>
+        <source src="parameuamor.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <!-- Segundo vídeo -->
+    <video controls>
+        <source src="parameuamor2.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <p>Como que eu vou dizer pra ela?
+Que eu gosto do seu cheiro
+Da cor do seu cabelo
+Que ela faz minha pupila dilatar
+Eu quero dizer pra ele
+Que a rima fez efeito
+E agora penso o dia inteiro
+Só ele faz minha pupila dilatar
+Ta-ah-ah ta-ta-ra-ta-ra
+Ta-ta-ta ta-ta-ra-ta-ra
+Ta-ta-ta ta-ta-ra-ta-ra-ta</p>
+</body>
+</html>
+
+    <!-- Terceiro Video -->
+    <video controls>
+        <source src="elvis.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+
+
+<!-- Link para a música no YouTube -->
+    <a href="https://youtu.be/OCMDyAteZY8?si=XPeu_pAEXsDLmh4Q target="_blank" class="music-link">
+        Ouvir "Falling in Love" - Elvis Presley
+    </a>
+
+<p>AQUELA MUSIQUINHA QUE VOCE GOSTA MEU AMOR
+    ESPECIALMENTE DEDICADA A VOCE</p>
+</p>
+</body>
+</html>
+ 
+<div class="image-container">
+    <img id="minhaImagem" src="flordela.png" alt="Descrição da imagem" width="350">
+    </p> essa flor feita com bastante carinho pra você </p>
+    <img id="minhaImagem" src="rubis.png" alt="Descrição da imagem" width="350">
+    </p> a frase biblica me mais me lembra você</p>
+    <img id="minhaImagem" src="1.jpg" alt="Descrição da imagem" width="300">
+    </p>  ❤️ </p>
+</div>
+
+
+    <script>
+        function mudarImagem() {
+            document.getElementById("minhaImagem").src = "nova-imagem.jpg";
+        }
+    </script>
+
+</body>
+</html>
+
+<script src="script.js?v=2"></script>
+
+      <script // Atualiza a página automaticamente a cada 10 segundos
+        setTimeout(() => {
+            location.reload();
+        }, 60000); // 60 segundos
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Especial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin-top: 50px;
+        }
+        .hidden {
+            display: none;
+        }
+        .message {
+            font-size: 1.5em;
+            color: pink;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Surpresa especial apenas esperando 
+         o momento certo ❤️</h1>
+    <p>só eu sei oq é </p>
+
+    <!-- Mensagem oculta inicialmente -->
+    <p id="specialMessage" class="message hidden">Oi meu amor, só pra lembrar você que hoje nós fazemos 7 meses juntos, quem diria né tanto tempo, passou rápido
+        e eu queria te desejar um feliz 7 meses do meu lado, que eu te amo tanto e esses dias são os dias mais especiais da minha vida, mais especiais até que 
+        meu aniversário, pq n é apenas meu dia e sim o nosso dia o dia em que eu conheci vc, é vc mesmo e pessoa mais incrível e madura que já passou na minha 
+        vida a pessoa que eu mais amo nesse mundo e a pessoa que eu quero ficar o resto da minha vida, sei que talvez n seja muito esse presente mas tenho em 
+        mente que vc gosta pq é uma coisa tão boba mas com um valor sentimental tão grande, meu amor eu te amo tanto e olha daqui a pouco teremos 1 ano, 10 anos, 
+        50 anos juntos vai ser a melhor experiência da minha vida te quero em todos os momentos dela.
+  
+         UM BEIJÃO E EU TE AMO MUITO MINHA PRINCESA.</p>
+
+    <script>
+        function verificarData() {
+            const dataAtual = new Date().getTime();
+            const dataLimite = new Date("2025-02-08T17:05:00").getTime(); // Defina a data desejada
+
+            if (dataAtual >= dataLimite) {
+                document.getElementById("specialMessage").classList.remove("hidden");
+            }
+        }
+
+        verificarData(); // Verifica assim que o site carregar
+    </script>
